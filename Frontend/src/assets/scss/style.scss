@@ -1,0 +1,77 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.loading-container {
+  .loading-backdrop {
+    //the backdrop falls in here, you can override the opacity etc.
+  }
+
+  .loading{
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .loading {
+    .loading-icon {
+      //the image or inserted html will be put here
+    }
+
+    .loading-label {
+      //the label showing on loading screen
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      text-align: center;
+    }
+
+  }
+}
+
+
+.pagination li a {
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  line-height: 1.25;
+  color: #263238;
+  cursor: pointer;
+  margin-left: .25rem;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #EBEBEB;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em; }
+.pagination li a:hover {
+  background: #fcfcfc; }
+.pagination li.active a {
+  color: #fff;
+  background: #0275d8;
+  border-color: #0275d8; }
+.pagination li:first-of-type a {
+  margin-left: 0px; }
+
+@media (max-width: 1100px) {
+  .pagination {
+    justify-content: center;
+    float: none !important;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; } }
+@media (max-width: 400px) {
+  .pagination li a {
+    padding: 5px 10px; } }
+@media (max-width: 360px) {
+  .pagination li a {
+    padding: 5px 7px; } }
+
+

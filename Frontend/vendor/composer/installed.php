@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'itsgoingd/clockwork' => array(
+            'pretty_version' => 'v5.1.4',
+            'version' => '5.1.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../itsgoingd/clockwork',
+            'aliases' => array(),
+            'reference' => '7252aa771b77ac8678b44290fd7ec7577435cce6',
+            'dev_requirement' => false,
+        ),
+        'psr/log' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/log',
+            'aliases' => array(),
+            'reference' => 'ef29f6d262798707a9edd554e2b82517ef3a9376',
+            'dev_requirement' => false,
+        ),
+    ),
+);
